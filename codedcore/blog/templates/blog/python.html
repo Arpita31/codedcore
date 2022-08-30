@@ -1,0 +1,46 @@
+{% extends 'blog/base.html' %}
+{% block contents %}
+<article class="media content-section">
+    <div class="media-body">
+        <h1 class="code-content-header"> Learning {{ posts.0.slug }} </h1><br/>
+        <div class="article-metadata">
+            <div>
+                <p class="article-content">
+                    Learning basic {{ posts.0.slug }}.
+                    <ol>
+                        {%for post in posts%}
+                        <li><a href="#{{post.header}}">{{ post.header }}</a></li>
+                        {%endfor%}
+                    </ol>
+                </p>
+            </div>
+        </div>
+        {%for post in posts %}
+            <div id="{{post.header}}">
+                <br/><br/>
+                <div class="media-body">
+                    <h1 class="code-content-header"> {{ post.header }}</h1><br/>
+                    <div class="article-metadata">
+                        <div >
+                            <p class="article-content">{{ post.content }}</p>
+                        </div>
+                    </div>
+                    <div class="text code-content-section ">
+                        <pre class="code-content-section"><code><p>{{ post.code }}</p> </code></pre>
+        
+                    </div>
+                    <div class="result-content-section">
+                        <p class="article-content">{{ post.results }}</p>
+                    </div>
+                    {% if post.image.url != '/media/default.jpeg' %}
+                        <div class="result-content-section">
+                            <img height="600" width="800" src="{{ post.image.url }}">
+                        </div>
+                    {% endif %}
+                </div>
+            </div>
+        {%endfor%}
+
+    </div>
+</article>
+{% endblock contents %}
