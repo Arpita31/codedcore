@@ -2,7 +2,8 @@
 https://user-images.githubusercontent.com/6211637/187847660-f062434d-56e8-4a25-8037-762b64d71f2f.mp4
 
 <br>
-## These are beginner blogs for learning:
+<h2> These are beginner blogs for learning:</h2>
+
 1. Django
 2. Python
 3. Data structure
@@ -27,3 +28,12 @@ https://user-images.githubusercontent.com/6211637/187847660-f062434d-56e8-4a25-8
 &emsp;&emsp; 2. A brief description of the process\
 &emsp;&emsp; 3. The Insertion Sort program in Python in a blue block.\
 &emsp;&emsp; 5. The result after executing the code snippet in a green block.\
+
+<h2>Python libraries used:</h2>
+
+1. Django = 4.1
+2. django-crispy-forms = 1.14.0
+3. Pillow = 9.2.0
+4. python-dotenv = 0.20.0
+5. sqlparse = 0.4.2
+
