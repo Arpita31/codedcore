@@ -1,6 +1,6 @@
-# Coded Core website
+# Coded Core
+https://user-images.githubusercontent.com/6211637/187847660-f062434d-56e8-4a25-8037-762b64d71f2f.mp4
 
-It consists of Tech blogs using ***Python and Django***.
 <br>
 ## These are beginner blogs for learning:
 1. Django
@@ -27,9 +27,3 @@ It consists of Tech blogs using ***Python and Django***.
 &emsp;&emsp; 2. A brief description of the process\
 &emsp;&emsp; 3. The Insertion Sort program in Python in a blue block.\
 &emsp;&emsp; 5. The result after executing the code snippet in a green block.\
-
-
-<h2>Video of Coded Core site</h2>
-
-
-https://user-images.githubusercontent.com/6211637/187847660-f062434d-56e8-4a25-8037-762b64d71f2f.mp4
